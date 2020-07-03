@@ -81,14 +81,13 @@ hr{
     margin-top: 20px;
 }
 
-.carousel-custom{
-    margin-top: 40px;
-}
+
 .carousel-custom h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     text-align: center;
     color: #141b52;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
