@@ -103,10 +103,11 @@ footer{
 
 @media(max-width: 600px){
     .navbar-custom a.navbar-brand{
-        font-size: 24px;
+        font-size: 30px;
     }
     .banner h2{
         margin-top: 40px;
+        font-size: 28px;
     }
     .banner h4{
         margin-top: 20px;
