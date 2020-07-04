@@ -11,12 +11,28 @@ hr{
     font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
 }
+.navbar-custom .nav-item a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.navbar-custom .nav-item a:hover{
+    background-color: #373D66;
+}
 .custom-toggler{
     background-color: white;
 }
 .custom-toggler .navbar-toggler-icon { 
     background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 128, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+h1{
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    color: #141b52;
 }
 
 .banner{
@@ -26,14 +42,15 @@ hr{
     width: 100%;
     height: auto;
 }
-.banner h2{
+.banner h1{
     margin-top: 120px;
     font-size: 36px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
+    text-align: left;
     color: #141b52;
 }
-.banner h4{
+.banner p{
     margin-top: 40px;
     font-size: 16px;
     line-height: 25px; 
@@ -50,13 +67,6 @@ hr{
     margin-bottom: 40px;
     padding: 0px 30px;
 }
-.projects h2{
-    margin-top: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
-    text-align: center;
-    color: #141b52;
-}
 .projects img{
     margin-top: 40px;
     width: 120px;
@@ -69,7 +79,7 @@ hr{
     text-align: center;
     color: #141b52;
 }
-.projects h4{
+.projects p{
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -82,12 +92,7 @@ hr{
 }
 
 
-.carousel-custom h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
-    text-align: center;
-    color: #141b52;
-    margin-top: 40px;
+.carousel-custom h1{
     margin-bottom: 20px;
 }
 
